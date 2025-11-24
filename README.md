@@ -7,7 +7,7 @@ Standalone Express service that powers the Slack “Sentiment Score” message s
 - Node.js 18+
 - A Slack app with Interactivity enabled and a message shortcut pointing to this service
 - Slack scopes: `commands`, `chat:write`, `conversations.history`, `conversations.replies`, `reactions:read`, `views:write`
-- Optional: Google Gemini API key if you want the fallback sentiment scoring
+- Optional: Google Gemini API key if you want the fallback sentiment scoring (a practice key/model are already hardcoded in `src/config.js`, but you should override them with your own for real projects)
 
 ### Setup
 
